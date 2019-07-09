@@ -1,3 +1,5 @@
+//function Run() //HACK HACK! I don't understand this script enough to do it in any other way.
+//{
 javascript: function GabeN(ratio, imageurl) {
   this.ratio = ratio;
   this.imageurl = imageurl
@@ -33,19 +35,19 @@ function Randomize(images) {
 }
 
 var myGabeN = [
-new GabeN("horizontal", "http://i.imgur.com/uLMbKmj.jpg"), 
-new GabeN("horizontal", "http://i.imgur.com/5DXQ7tx.jpg"), 
-new GabeN("horizontal", "http://i.imgur.com/dldrXOf.jpg"), 
-new GabeN("horizontal", "http://i.imgur.com/8uH9TQb.jpg"), 
-new GabeN("horizontal", "http://i.imgur.com/7wU40jQ.jpg"), 
-new GabeN("horizontal", "http://i.imgur.com/ajxvdWo.jpg"), 
-new GabeN("vertical", "http://i.imgur.com/aRCPVmX.jpg"), 
-new GabeN("vertical", "http://i.imgur.com/FU2unZO.jpg"), 
-new GabeN("vertical", "http://i.imgur.com/3brJDRx.jpg"), 
-new GabeN("vertical", "http://i.imgur.com/j9KOnWm.jpg"), 
-new GabeN("square", "http://i.imgur.com/sWCcEwV.jpg"), 
-new GabeN("square", "http://i.imgur.com/ecbdpfL.jpg"), 
-new GabeN("square", "http://i.imgur.com/lDkMf5P.jpg"), 
+new GabeN("horizontal", "http://i.imgur.com/uLMbKmj.jpg"),
+new GabeN("horizontal", "http://i.imgur.com/5DXQ7tx.jpg"),
+new GabeN("horizontal", "http://i.imgur.com/dldrXOf.jpg"),
+new GabeN("horizontal", "http://i.imgur.com/8uH9TQb.jpg"),
+new GabeN("horizontal", "http://i.imgur.com/7wU40jQ.jpg"),
+new GabeN("horizontal", "http://i.imgur.com/ajxvdWo.jpg"),
+new GabeN("vertical", "http://i.imgur.com/aRCPVmX.jpg"),
+new GabeN("vertical", "http://i.imgur.com/FU2unZO.jpg"),
+new GabeN("vertical", "http://i.imgur.com/3brJDRx.jpg"),
+new GabeN("vertical", "http://i.imgur.com/j9KOnWm.jpg"),
+new GabeN("square", "http://i.imgur.com/sWCcEwV.jpg"),
+new GabeN("square", "http://i.imgur.com/ecbdpfL.jpg"),
+new GabeN("square", "http://i.imgur.com/lDkMf5P.jpg"),
 new GabeN("square", "http://i.imgur.com/qkcP48v.jpg")];
 
 var GabenTexts = [
@@ -75,10 +77,10 @@ function imageRatio(image) {
   }(function(document) {
     getGabeN.init(myGabeN);
     var images = document.getElementsByTagName("img");
-    var paragraphs = document.querySelectorAll("p,h1,h2,h3,h4,h5,h6");
+    var paragraphs = document.querySelectorAll("p,h1,h2,h3,h4,h5,h6,span");
     imgslength = images.length;
     pslength = paragraphs.length;
-    console.log(pslength);
+    //console.log(pslength);
     for (var i = 0; i < imgslength; i++) {
       var ratio = imageRatio(images[i]);
       //console.log("Image Change");
@@ -98,8 +100,9 @@ function imageRatio(image) {
     }
     for (var i = 0; i < pslength; i++)
     {
-        console.log(paragraphs[i]);
+        //console.log(paragraphs[i]);
         paragraphs[i].innerHTML = GabenTexts.randomElement();
         //console.log("Paragraph Change");
     }
   })(document);
+//}
