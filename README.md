@@ -8,6 +8,8 @@ While the old, puny Gabeify changed just images, this new **EXTREME** Version ch
 
 ![](https://raw.githubusercontent.com/ACBob/Gabeify/master/images/before%20after%20gabeifypp.png)
 
+*(Currently only affects Headers, Paragraphs and the Span element.)*
+
 Credits
 ------
 
