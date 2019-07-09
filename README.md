@@ -10,10 +10,11 @@ Credits
 ------
 
 Gabeify is a modified implementation of the [HEY GIRL](http://heygirl.io/) script.  
+
 Gabeify++ is a modified implementation of the [Gabeify](https://github.com/powderblock/Gabeify) script.
 
 HEY GIRL is made by [Katherine Champagne](https://twitter.com/keccers).  
 
 Gabeify is made by Blade Nelson. ([powderblock](https://github.com/powderblock), [/u/powderblock](http://www.reddit.com/user/powderblock/), [@powderblock](https://twitter.com/powderblock))
 
-Gabeify++ is made by ACBob. ([ACBob](https://github.com/ACBob), [Bob](https://www.youtube.com/channel/UCFwdXmxvUIxHjalmBbkK4AQ))
+Gabeify++ is a modified implementation of the [Gabeify](https://github.com/powderblock/Gabeify) script.  
