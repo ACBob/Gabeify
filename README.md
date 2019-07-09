@@ -6,6 +6,8 @@ Bring lord GabeN to any web page your heart desires.
 
 While the old, puny Gabeify changed just images, this new **EXTREME** Version changes the Text.
 
+![](https://raw.githubusercontent.com/ACBob/Gabeify/master/images/before%20after%20gabeifypp.png)
+
 Credits
 ------
 
